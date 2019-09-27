@@ -74,11 +74,11 @@ def naive_bayes(test):
 
 	return results
 
-print 'Enter the sentence'
-text=raw_input()
+print ('Enter the sentence')
+text=input()
 result=naive_bayes(text)
 
 if result['1'] > result['-1']:
-	print 'positive'
+	print ('positive')
 else:
-	print 'negative'
+	print ('negative')
